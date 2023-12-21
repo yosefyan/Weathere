@@ -2,7 +2,7 @@ const getUsersCurrentDate = () => {
   const now = new Date();
   const hour = now.getHours();
   let greeting;
-  let src = `../assets/`;
+  let src = `./assets/`;
   if (hour >= 5 && hour < 12) {
     greeting = `<i class="fa-solid fa-mug-saucer"></i> Good Morning`;
     src += "morning.jpg";
