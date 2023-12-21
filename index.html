@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weathere!</title>
+    <script type="module" src="./js/index.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <script src="./js/index.js" type="module" defer></script>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body class="overflow-x-hidden">
+    <div
+      id="bgPicture"
+      class="m-auto w-[100vw] sm:h-full 2xl:h-[100vh] bg-[length:100%_100%]">
+      <form
+        action="#"
+        class="h-[40vh] flex justify-evenly items-center flex-col">
+        <h1
+          class="gradientText text-6xl text-white text-center tracking-widest">
+          Weathere!
+        </h1>
+        <input
+          id="theInput"
+          class="border-b-4 text-center focus-within:outline-none transition-all hover:scale-125 gradientText text-4xl p-4 rounded-lg tracking-widest"
+          type="text"
+          placeholder="Search any city..." />
+        <h5 class="text-4xl gradientText" id="currentPhase"></h5>
+      </form>
+      <div
+        id="dataContainer"
+        class="rounded-lg h-[50%] h-fit gap-2 bg-gradient-to-r from-black/25 to-black/50 shadow-inner w-[80vw] m-auto h-[50vh] data data-4 f list-none grid sm:grid-cols-1 justify-items-center 2xl:grid-cols-4 py-6">
+        <p class="col-span-4 flex items-center text-white text-center text-5xl">
+          Search any city to display its data!
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

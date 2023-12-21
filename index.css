@@ -1,0 +1,20 @@
+* {
+  font-family: Agbalumo;
+}
+.morningColor {
+  background: linear-gradient(#fd8a00, #271818b0);
+}
+.afternoonColor {
+  background: linear-gradient(rgb(137, 213, 238), white);
+}
+.eveningColor {
+  background: linear-gradient(#fb6e33, #392f37);
+}
+.nightColor {
+  background: linear-gradient(#035198, rgb(66, 58, 105));
+}
+.gradientText {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
