@@ -9,7 +9,7 @@ Weathere is a vibrant weather app providing real-time updates from a weather API
 
 ## Getting Started
 
-1. Access Weathere at [Weathere!](https://yosefyan.github.io/weathere).
+1. Access Weathere at [Weathere!](https://yosefyan.github.io/Weathere).
 
 2. Explore detailed weather information for cities worldwide.
 
